@@ -1,0 +1,13 @@
+<Window x:Class="U5TowerHanoi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U5TowerHanoi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="600">
+    <Canvas x:Name="canvas">
+        <TextBox x:Name="txtInput" Text="Enter stuff here"/>
+        <Button x:Name="btnRun" Content="Start" Click="btnRun_Click" Canvas.Left="10" Canvas.Top="23"/>
+    </Canvas>
+</Window>
